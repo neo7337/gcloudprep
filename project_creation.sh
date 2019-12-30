@@ -15,7 +15,7 @@ gcloud services enable compute.googleapis.com
 
 #   clone the startup-script to a location from the following git repo and use the 
 #   following script to setup the instance
-curl -o worker-startup-script https://raw.githubusercontent.com/ACloudGuru/gcp-cloud-engineer/master/compute-labs/worker-startup-script.sh
+curl -o worker-startup-script.sh https://raw.githubusercontent.com/ACloudGuru/gcp-cloud-engineer/master/compute-labs/worker-startup-script.sh
 
 #   get the path where the files are cloned and save the path to a variable
 dir=$(pwd)/worker-startup-script.sh
