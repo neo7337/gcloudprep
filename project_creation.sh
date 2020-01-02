@@ -1,7 +1,7 @@
 # /bin/sh
 
-project="projTest1"
-projectId="test-project-101"
+project="myProjectCreate2"
+projectId="mytest-project-202"
 bucketName="testBucket"
 instanceGroupName="test-ig"
 instaneTemplate="test-it"
