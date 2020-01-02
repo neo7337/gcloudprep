@@ -1,10 +1,10 @@
 # /bin/sh
 
-project="createProject-101"
-projectId="mytest-homeproject-101"
-bucketName="myTestProjectBucket"
-instanceGroupName="test-ig"
-instaneTemplate="test-it"
+project="proj_showCaseAPI"
+projectId="showCaseProj"
+bucketName="showCaseBucket"
+instanceGroupName="initial-ig"
+instaneTemplate="initial-it"
 
 #   create the gcp project with the below command
 gcloud projects create $projectId --name=$project --set-as-default
