@@ -1,3 +1,6 @@
+To grant read write access to all files
+chmod -R 775 <folderName>
+
 GCP create managed instance group : 
 
     gcloud beta compute --project=mynewhomeproj instance-groups managed create my-managed-instance-group --base-instance-name=my-managed-instance-group --template=worker-instance-template-1 --size=1 --zones=us-central1-b,us-central1-c,us-central1-f,us-central1-a --instance-redistribution-type=PROACTIVE
