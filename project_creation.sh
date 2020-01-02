@@ -1,8 +1,8 @@
 # /bin/sh
 
-project="projshowcaseapi"
-projectId="showcaseproj"
-bucketName="showcasebucket_logs"
+project="projshowcase"
+projectId="showcaseapiproj"
+bucketName="showcaseapibucket_logs"
 instanceGroupName="initial-ig"
 instaneTemplate="initial-it"
 
